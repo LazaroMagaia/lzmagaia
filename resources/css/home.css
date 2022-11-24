@@ -1,0 +1,493 @@
+
+.home_page .desc
+{
+    padding-top: 10rem;
+}
+.home_page .desc h1
+{
+    font-size: 6rem;
+    font-weight: 700;
+    color: #07003b;
+}
+.home_page .desc .btn-desc
+{
+    padding: 0.6rem 1rem;
+    background-color: #fcb647;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.home_page .desc h1 span
+{
+    color: #fcb647;
+}
+.home_page .desc p
+{
+    font-size: 1.6rem;
+    color: rgba(7, 0, 59, 0.5);
+}
+.home_page .title-home-img img
+{
+    width: 90%;
+    margin-left: 10rem;
+}
+.best-deal
+{
+    position: absolute;
+    width: 20rem;
+    height: 8rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    top: 40rem;
+    border-radius: 1rem;
+}
+.best-deal img
+{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 0.2rem;
+    object-fit: contain;
+}
+.best-deal p
+{
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    color: rgba(7, 0, 59, 0.5);
+}
+/***********************HOME CONTENT*****************************/
+.home-content
+{
+    font-family: 'Jost', sans-serif;
+}
+.worked-with
+{
+    padding: 4rem 0;
+}
+.worked-with i
+{
+    font-size: 6rem;
+    padding: 2rem 3rem;
+    color: #9098B1;
+}
+.service 
+{
+    padding: 4rem 0;
+}
+.service .title h1
+{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #07003b;
+}
+.service .title p
+{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgba(7, 0, 59, 0.5);
+}
+.service .title p span
+{
+    color: #fcb647;
+}
+
+.service-desc
+{
+    margin-top: 5rem;
+}
+.service-desc img
+{
+    width: 5rem;
+    object-fit: cover;
+    margin-bottom:4rem;
+}
+.service-desc h3
+{
+    font-size: 2rem;
+    color: #07003b;
+    font-weight: 600;
+}
+.service-desc p
+{
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.5);
+    margin-bottom: 4rem;
+}
+.service-single
+{
+    padding: 4rem 1rem;
+}
+.service-single:hover
+{
+    background-color: rgba(252, 182, 71,0.2);
+}
+.btn-full-primary
+{
+    position: relative;
+    background-color: #FCA61F;
+    padding: 0.8rem 5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.btn-full-primary:hover
+{
+    color: #fcb647;
+    background-color: transparent;
+    border: 1px solid #fcb647;
+}
+
+
+/*******************ABOUT ME************************/
+.about-me
+{
+    padding: 0 2rem;
+}
+.about-me img
+{
+    width: 100%;
+}
+.about-me .desc
+{
+    margin-top: 5rem;
+}
+.about-me .desc h1
+{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #07003b;
+}
+.about-me .desc p
+{
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.5);
+}
+.about-me .name-desc
+{
+    margin-top: 2rem;
+}
+.about-me .name-desc h2
+{
+    font-size: 1.8rem;
+    color: #07003b;
+}
+
+/****************PROJECTS************************/
+
+/***********************************PROJECT*****************************/
+
+.works {
+    padding: 5rem 0;
+}
+
+.project {
+    padding: 5rem 0;
+}
+
+.project h1 {
+    color: #07003B;
+    font-size: 2.5rem;
+}
+
+.project p {
+    color: rgba(7, 0, 59, 0.5);
+    max-width: 900px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.project .card-portfolio img.img-works {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bg-portf {
+    background-color: #FEE4BC;
+}
+
+.bg-nft {
+    background-color: #BBE7D8;
+}
+.bg-trustycs
+{
+    background: rgba(1, 57, 255, 0.7);
+}
+.project .card-portfolio {
+    padding: 1rem 1rem;
+    height: 65rem;
+    margin: 1rem 0;
+}
+
+.project .card-portfolio h1,
+.project .card-portfolio h3,
+.project .card-portfolio p,
+.project .card-portfolio a {
+    margin: 0 2rem;
+}
+
+.project .card-portfolio h1 {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+.project .card-portfolio h3 {
+    font-size: 1.6rem;
+    color: rgba(7, 0, 59, 0.5);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project .card-portfolio p {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.6);
+}
+
+.project .card-portfolio a {
+    color: #FCA61F;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.project .card-portfolio a img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+/**********************************CLIENTE SAYS *******************/
+.clients .title-desc h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #07003b;
+}
+.clients .title-desc p
+{
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.6);
+}
+.box-client
+{
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 0.2rem dashed rgba(80, 203, 147, 1);
+    box-shadow: 0 2rem 3rem rgba(80, 203, 147, 0.1);
+    margin: 1rem 1rem;
+}
+.box-client img
+{
+    width: 10rem;
+    object-fit: contain;
+}
+.box-client h3
+{
+    font-size: 2rem;
+    color: #07003B;
+    margin-left: 2rem;
+}
+.box-client p
+{
+    font-size: 2rem;
+    color: rgba(7, 0, 59, 0.6);
+    margin-left: 2rem;
+}
+/*****************************Newsletter*******************/
+.newsletter
+{
+    padding: 4rem 0;
+    margin-top: 4rem;
+}
+.newsletter h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #07003b;
+}
+.newsletter p
+{
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.6);
+}
+.newsletter form input[type="text"]
+{
+    color: rgba(7, 0, 59, 0.6);
+    width: 60%;
+    height: 6rem;
+    font-size: 2rem;
+    border-radius: 10rem;
+    border: 1px solid #B6B6B6;
+    text-align: center;
+    margin: 2rem 2rem;
+    outline: none;
+}
+.newsletter form button
+{
+    width: 25%;
+    height: 6rem;
+    font-size: 2rem;
+    border-radius: 10rem;
+    margin: 2rem 2rem;
+    background-color: #FCA61F;
+    color: #ffffff;
+    border: none;
+}
+.newsletter form button:hover
+{
+    background-color: #fcb647;
+    color: #ffffff;
+    border: none;
+}
+
+/*********************CONTACT****************/
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 30rem;
+    padding:2rem 5rem;
+    border-radius: 10rem;
+}
+.contact h1
+{
+    font-size: 3rem;
+    color: #07003B;
+}
+.contact h3
+{
+    font-size: 5rem;
+    color: #000000;
+}
+.contact p
+{
+    font-size: 1.8rem;
+    color: rgba(7, 0, 59, 0.6);
+    margin-bottom: 2rem;
+}
+.contact a
+{
+    text-decoration: none;
+    background-color: #FCA61F;
+    padding: 0.8rem 2rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+
+/***************************FOOTER************************/
+.footer-navbar
+{
+    padding: 5rem 0;
+}
+
+.footer-navbar a
+{
+    margin: 2rem 3rem;
+    color:rgba(7, 0, 59, 0.6);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.footer-navbar a:hover
+{
+    text-decoration: underline;
+}
+.footer-social-icons
+{
+    margin-top: 4rem;
+}
+
+.footer-social-icons i
+{
+    font-size: 3rem;
+    color: rgba(7, 0, 59, 0.6);
+}
+.footer-social-icons i:hover
+{
+    color: #FCA61F;
+}
+@media screen and (max-width:980px){
+    .best-deal
+    {
+        top: 30rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home_page .desc
+    {
+        text-align: center;
+        align-items: center;
+    }
+    .home_page .desc
+    {
+        padding: 2rem 0;
+    }
+    .home_page .title-home-img img
+    {
+        display: none;
+    }
+    .home_page .desc h1
+    {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #07003b;
+    }
+    .best-deal
+    {
+        display: none;
+    }
+    .about-me
+    {
+       text-align: center;
+    }
+    .newsletter
+    {
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+    .newsletter form input[type="text"]
+    {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.8rem;
+    border-radius: 5rem;
+    }
+    .newsletter form button
+    {
+        width: 100%;
+        height: 4rem;
+        font-size: 1.8rem;
+        border-radius: 10rem;
+        margin: -1rem 2rem;
+    }
+    .contact h1
+    {
+        font-size: 2rem;
+        color: #07003B;
+    }
+    .contact h3
+    {
+        font-size: 2rem;
+        color: #000000;
+    }
+    .footer-navbar
+    {
+        padding: 2rem 0;
+    }
+}

@@ -1,0 +1,82 @@
+
+.contacto
+{
+    margin: 4rem 0;
+    font-family: 'Jost', sans-serif;
+}
+.contacto h1
+{
+    font-size: 8rem;
+    font-weight: 700;
+}
+.title-contacto-interessado
+{
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: #ccc;
+}
+.option-dev input[type="checkbox"]
+{
+    display: none;
+}
+.option-dev label
+{
+    border: 1px solid rgba(7, 0, 59, 0.6);
+    border-radius: 5rem;
+    margin: 2rem 2rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.option-dev input:checked + label
+{
+    color: #fff;
+    background-color:#07003B;
+}
+.option-dev label:hover
+{
+    background-color: #07003b;
+    color: #fff;
+}
+.form-dev input[type="text"],.form-dev input[type="email"]
+{
+    border:0;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    outline: 0;
+}
+.form-dev textarea
+{
+    width: 100%;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    outline: none;
+    border:2px solid #ccc;
+    padding: 1rem;
+}
+.form-dev button
+{
+    padding: 0.3rem 2rem;
+    font-size: 1.8rem;
+    color: #fff;
+    border-radius: 2rem;
+    border: 0;
+    background-color: #07003b;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .contacto h1
+    {
+        font-size: 2rem;
+    }
+    .title-contacto-interessado
+    {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    
+}
